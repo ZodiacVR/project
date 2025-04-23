@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./FAQ.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <a href="#" class="logo">LloydJefferson</a>
+        <nav class="navigation">
+          <ul class="nav-list">
+            <li class="nav-item"><a href="#hero" class="nav-link">Hero</a></li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link">About me</a>
+            </li>
+            <li class="nav-item">
+              <a href="#skills" class="nav-link">Tech Skills</a>
+            </li>
+            <li class="nav-item">
+              <a href="#projects" class="nav-link">My projects</a>
+            </li>
+            <li class="nav-item">
+              <a href="#benefits" class="nav-link">Benefits</a>
+            </li>
+            <li class="nav-item"><a href="#faq" class="nav-link">FAQ</a></li>
+            <li class="nav-item">
+              <a href="#reviews" class="nav-link">Reviews</a>
+            </li>
+            <li class="nav-item">
+              <a href="#work" class="nav-link">Work together</a>
+            </li>
+          </ul>
+        </nav>
+        <button class="burger-menu-btn"></button>
+      </div>
+    </header>
+
+    <main>
+      <section id="hero" class="hero">
+        <div class="container"></div>
+      </section>
+
+      <section id="about" class="about">
+        <div class="container"></div>
+      </section>
+
+      <section id="skills" class="skills">
+        <div class="container"></div>
+      </section>
+
+      <section id="projects" class="projects">
+        <div class="container">
+          <h2 class="section-title">My projects</h2>
+          <ul class="projects-list"></ul>
+          <button type="button" class="load-more-btn">Load more</button>
+        </div>
+      </section>
+
+      <section id="benefits" class="benefits">
+        <div class="container">
+          <h2 class="section-title">Benefits of working with me</h2>
+          <ul class="benefits-list"></ul>
+        </div>
+      </section>
+
+      <section id="faq" class="faq">
+        <div class="container">
+          <div class="faq-title-wrapper">
+            <h2 class="section-title">
+              FREQUENTLY ASKED <span class="question-accent">QUESTION</span>
+            </h2>
+            <div class="faq-image-wrapper">
+              <img src="./img/decor bg 4.png" alt="Зображення FAQ" />
+            </div>
+          </div>
+          <div class="faq-list-wrapper">
+            <ul class="faq-list">
+              <li class="faq-item is-open">
+                <button
+                  class="faq-question"
+                  aria-expanded="true"
+                  aria-controls="faq-answer-1"
+                >
+                  WHAT PROGRAMMING LANGUAGES ARE MOST OFTEN USED IN YOUR
+                  PROJECT?
+                  <svg class="faq-icon" width="20" height="20">
+                    <use href="./img/Icon.png"></use>
+                  </svg>
+                </button>
+                <div class="faq-answer" id="faq-answer-1">
+                  <p>
+                    In the field of web development, there are various
+                    technologies and programming languages. Typically, this
+                    includes a combination of frontend (client side) and backend
+                    (server side) languages.
+                  </p>
+                </div>
+              </li>
+              <li class="faq-item">
+                <button
+                  class="faq-question"
+                  aria-expanded="false"
+                  aria-controls="faq-answer-2"
+                >
+                  WHAT ARE THE DEADLINES FOR THE PROJECT?
+                  <svg class="faq-icon" width="20" height="20">
+                    <use href="./img/icons.svg#icon-arrow-down"></use>
+                  </svg>
+                </button>
+                <div class="faq-answer" id="faq-answer-2" hidden>
+                  <p>
+                    The terms of project implementation depend to a large extent
+                    on a number of factors, such as the scope of the project,
+                    its complexity, and the availability of resources.
+                    Determining exact deadlines is a difficult task, and it
+                    usually occurs during the planning phase of the project.
+                  </p>
+                </div>
+              </li>
+              <li class="faq-item">
+                <button
+                  class="faq-question"
+                  aria-expanded="false"
+                  aria-controls="faq-answer-3"
+                >
+                  WHAT PAYMENT METHODS DO YOU ACCEPT?
+                  <svg class="faq-icon" width="20" height="20">
+                    <use href="./img/icons.svg#icon-arrow-down"></use>
+                  </svg>
+                </button>
+                <div class="faq-answer" id="faq-answer-3" hidden>
+                  <p>
+                    Payment through credit and debit cards such as Visa,
+                    MasterCard, specialized electronic payment systems such as
+                    PayPal, as well as payments in cryptocurrencies such as
+                    Bitcoin, Ethereum and others.
+                  </p>
+                </div>
+              </li>
+              <li class="faq-item">
+                <button
+                  class="faq-question"
+                  aria-expanded="false"
+                  aria-controls="faq-answer-4"
+                >
+                  HOW CAN I CONTACT YOU?
+                  <svg class="faq-icon" width="20" height="20">
+                    <use href="./img/icons.svg#icon-arrow-down"></use>
+                  </svg>
+                </button>
+                <div class="faq-answer" id="faq-answer-4" hidden>
+                  <p>
+                    In the field of web development, there are various
+                    technologies and programming languages. Typically, this
+                    includes a combination of frontend (client side) and backend
+                    (server side) languages.
+                  </p>
+                </div>
+              </li>
+              <li class="faq-item">
+                <button
+                  class="faq-question"
+                  aria-expanded="false"
+                  aria-controls="faq-answer-5"
+                >
+                  DO YOU PROVIDE ADVICE OR SUPPORT?
+                  <svg class="faq-icon" width="20" height="20">
+                    <use href="./img/icons.svg#icon-arrow-down"></use>
+                  </svg>
+                </button>
+                <div class="faq-answer" id="faq-answer-5" hidden>
+                  <p>
+                    The terms of project implementation depend to a large extent
+                    on a number of factors, such as the scope of the project,
+                    its complexity, and the availability of resources.
+                    Determining exact deadlines is a difficult task, and it
+                    usually occurs during the planning phase of the project.
+                  </p>
+                </div>
+              </li>
+              <li class="faq-item">
+                <button
+                  class="faq-question"
+                  aria-expanded="false"
+                  aria-controls="faq-answer-6"
+                >
+                  WHAT DOES THE PROCESS OF DEVELOPING A SOFTWARE PRODUCT LOOK
+                  LIKE FROM IDEA TO IMPLEMENTATION?
+                  <svg class="faq-icon" width="20" height="20">
+                    <use href="./img/icons.svg#icon-arrow-down"></use>
+                  </svg>
+                </button>
+                <div class="faq-answer" id="faq-answer-6" hidden>
+                  <p>
+                    Payment through credit and debit cards such as Visa,
+                    MasterCard, specialized electronic payment systems such as
+                    PayPal, as well as payments in cryptocurrencies such as
+                    Bitcoin, Ethereum and others.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="reviews" class="reviews">
+        <div class="container">
+          <h2 class="section-title">Reviews</h2>
+          <ul class="reviews-list swiper-wrapper"></ul>
+        </div>
+      </section>
+
+      <section id="work" class="work-together">
+        <div class="container">
+          <h2 class="section-title">Let's work together</h2>
+          <form class="work-form">
+            <button type="submit" class="send-message-btn">Send message</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <a href="#" class="logo">LloydJefferson</a>
+        <ul class="social-list"></ul>
+        <p class="copyright">&copy; Copyright 2024. Made by LloydJefferson</p>
+      </div>
+    </footer>
+
+    <div class="modal">
+      <div class="modal-content">
+        <button class="modal-close-btn"></button>
+        <h2 class="modal-title">Thank you for your interest in cooperation!</h2>
+        <p class="modal-description"></p>
+      </div>
+      <div class="modal-backdrop"></div>
+    </div>
+
+    <script src="./FAQ.js"></script>
+  </body>
+</html>
