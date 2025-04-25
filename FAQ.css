@@ -221,3 +221,154 @@
     padding: 20px 24px;
   }
 }
+/* projects*/
+
+/* Базові стилі для всієї секції My Projects */
+.projects {
+  padding: 80px 20px;
+  background-color: #f9f9f9; /* WHITE */
+}
+
+.projects .container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.projects .section-title {
+  font-family: "Poppins Bold", sans-serif;
+  color: #292929; /* BLACK */
+  text-align: center;
+  white-space: nowrap;
+  margin-bottom: 40px;
+}
+
+.projects .section-title .accent {
+  color: #00b068; /* ACCENT GREEN */
+}
+
+.projects-grid {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.project-card {
+  background-color: #f0f0f0; /* LIGHT GREY */
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+}
+
+.project-card img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border-radius: 16px 16px 0 0;
+}
+
+.project-technologies {
+  font-family: "Poppins Regular", sans-serif;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.2px;
+  color: #8b8b8b; /* HOVER GREY */
+  padding: 10px 15px;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.project-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+
+.project-info .project-title {
+  font-family: "Poppins SemiBold", sans-serif;
+  font-size: 20px;
+  line-height: 1.3;
+  color: #292929; /* BLACK */
+  margin: 0;
+}
+
+.project-visit-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-family: "Poppins Medium", sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.2px;
+  color: #00b068; /* ACCENT GREEN */
+  background-color: transparent;
+  border: 2px solid #00b068; /* ACCENT GREEN */
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.project-visit-button svg {
+  fill: #00b068; /* ACCENT GREEN */
+}
+
+.project-visit-button:hover {
+  background-color: #00b068; /* ACCENT GREEN */
+  color: #f0f0f0; /* WHITE */
+}
+
+.load-more-button {
+  display: block;
+  font-family: "Poppins Medium", sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.2px;
+  color: #00b068; /* ACCENT GREEN */
+  background-color: transparent;
+  border: 2px solid #00b068; /* ACCENT GREEN */
+  padding: 15px 30px;
+  margin: 40px auto 0 auto;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.load-more-button:hover {
+  background-color: #00b068; /* ACCENT GREEN */
+  color: #f0f0f0; /* WHITE */
+}
+
+/* Адаптивні стилі для планшетів (від 768px) */
+@media screen and (min-width: 768px) {
+  .projects .section-title {
+    font-size: 64px; /* Для наближення до висоти 124px */
+    line-height: 1.9375; /* Збільшуємо міжрядковий інтервал */
+    letter-spacing: -0.0156em;
+  }
+}
+
+/* Адаптивні стилі для десктопів (від 1280px) */
+@media screen and (min-width: 1280px) {
+  .projects .section-title {
+    font-size: 108px; /* Для наближення до висоти 124px */
+    line-height: 1.148; /* Коригуємо міжрядковий інтервал */
+    letter-spacing: -0.022em;
+    margin-bottom: 80px;
+  }
+}
+
+/* Стилі для мобільних (до 767px) */
+@media screen and (max-width: 767px) {
+  .projects .section-title {
+    font-size: 40px; /* Для наближення до висоти 64px */
+    line-height: 1.6; /* Коригуємо міжрядковий інтервал */
+  }
+}
